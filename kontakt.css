@@ -1,0 +1,30 @@
+.formularz-kontaktowy input, .formularz-kontaktowy textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.formularz-kontaktowy textarea {
+    min-height: 200px;
+    min-width: 500px;
+}
+
+.formularz-kontaktowy .wprowadzanie-tekstu{
+    min-width: 480px;
+}
+
+.formularz-kontaktowy{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formularz-kontaktowy .wybor{
+    display: inline;
+    margin-bottom: 0;
+}
+
+.formularz-kontaktowy .przycisk{
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}

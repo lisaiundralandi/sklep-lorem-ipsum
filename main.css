@@ -43,6 +43,10 @@ body {
     border-radius: 10px;
 }
 
+.lead-podstrona{
+    background-color: white;
+}
+
 .tekst-dodatkowy {
     margin-top: 1em;
     padding: 1.5em;
@@ -81,7 +85,6 @@ body {
 
 .przycisk:active {
     background-color: #59728d;
-
 }
 
 .newsletter {

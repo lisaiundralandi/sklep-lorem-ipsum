@@ -8,6 +8,7 @@
 
     <title>Strona główna</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="galeria.css">
     <link rel="icon" type="image/png" href="favicon.png">
     <script src="galeria.js"></script>
 </head>
@@ -45,10 +46,14 @@
     </div>
 
     <div class="galeria">
-        <img src="obrazki/cthulhu.png" id="obrazek-galeria">
-        <button onclick="wstecz()">Wstecz</button>
-        <span id="licznik-galerii">1/3</span>
-        <button onclick="dalej()">Dalej</button>
+        <img src="obrazki/cthulhu.png" id="obrazek-galeria" alt="aktualne zdjęcie gry">
+
+        <div class="przyciski">
+            <button onclick="wstecz()">Wstecz</button>
+            <span id="licznik-galerii">1/3</span>
+            <button onclick="dalej()">Dalej</button>
+        </div>
+
     </div>
 
     <div class="stopka">

@@ -1,0 +1,23 @@
+.galeria {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.galeria img {
+    max-height: 500px;
+}
+
+.galeria button{
+    padding: 0.8em;
+    background-color: whitesmoke;
+    border: 1px solid #a4a3a3;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    cursor: pointer;
+}
+
+.galeria button:active{
+    background-color: #b8b5b5;
+}

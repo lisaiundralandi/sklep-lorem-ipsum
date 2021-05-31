@@ -17,11 +17,11 @@ body {
     margin-right: 1em;
 }
 
-.menu a:hover{
+.menu a:hover {
     color: #61718a;
 }
 
-.menu-tytul{
+.menu-tytul {
     margin-right: 1em;
     font-weight: bold;
     color: #516481;
@@ -61,4 +61,39 @@ body {
     border-top: 1px solid darkgray;
     padding-top: 1em;
     color: darkgray;
+}
+
+.wprowadzanie-tekstu {
+    padding: 1em;
+    border: 4px ridge #f5f5f5;
+    min-width: 250px;
+}
+
+.przycisk {
+    padding: 0.8em;
+    font-size: 15px;
+    background-color: #8ea1be;
+    color: aliceblue;
+    border: none;
+    border-radius: 8px;
+}
+
+.przycisk:active{
+    background-color: #59728d;
+
+}
+
+.newsletter{
+    background-color: #f5f5f5;
+    padding: 1em;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.tytul-sekcji{
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1em;
 }

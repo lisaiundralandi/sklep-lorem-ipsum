@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="kontakt.css">
     <link rel="icon" type="image/png" href="favicon.png">
+    <script src="kontakt.js"></script>
 
 </head>
 <body>
@@ -37,17 +38,17 @@
 
     <div class="tresc">
 
-        <form class="formularz-kontaktowy">
+        <form class="formularz-kontaktowy" name="kontakt">
             <label> <span class="etykieta">Imię: </span>
-                <input type="text" name="imie" class="wprowadzanie-tekstu" required>
+                <input type="text" name="imie" class="wprowadzanie-tekstu" required onblur="sprawdzImie()">
             </label>
 
             <label> <span class="etykieta">E-mail: </span>
-                <input type="email" name="email" class="wprowadzanie-tekstu" required>
+                <input type="email" name="email" class="wprowadzanie-tekstu" required onblur="sprawdzMail()">
             </label>
 
             <label> <span class="etykieta">Treść: </span>
-                <textarea name="tresc" required></textarea>
+                <textarea name="tresc" required onblur="sprawdzTresc()"></textarea>
             </label>
 
             <label>

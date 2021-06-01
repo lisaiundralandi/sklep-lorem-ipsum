@@ -60,6 +60,13 @@ body {
     margin-right: 1em;
 }
 
+.tytul-sekcji {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1em;
+}
+
 .stopka {
     margin-top: 1em;
     border-top: 1px solid darkgray;
@@ -95,9 +102,3 @@ body {
     border-radius: 10px;
 }
 
-.tytul-sekcji {
-    font-size: 18px;
-    font-weight: bold;
-    display: block;
-    margin-bottom: 1em;
-}

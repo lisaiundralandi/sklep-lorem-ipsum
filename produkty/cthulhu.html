@@ -9,6 +9,7 @@
     <title>Cthulhu: Death May Die</title>
     <link rel="stylesheet" href="../style/main.css">
     <link rel="stylesheet" href="../style/produkty.css">
+    <script src="../skrypty/produkt.js"></script>
     <link rel="icon" type="image/png" href="../favicon.png">
 </head>
 <body>
@@ -43,7 +44,7 @@
                 <div>Cena:</div>
                 <div class="cena"> 140,00 <span class="waluta">zł</span></div>
                 <label class="liczba-sztuk">
-                    <input type="number" value="1"> szt
+                    <input type="number" value="1" id="licznik-sztuk" onchange="sprawdzLiczbe(10)"> szt
                     <span class="stan-magazynu">Liczba egzemplarzy: 10</span>
                 </label>
                 <a class="przycisk" href="../zamowienie.html">Zamów</a>

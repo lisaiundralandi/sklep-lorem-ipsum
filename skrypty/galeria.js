@@ -1,7 +1,12 @@
 const obrazki = [
     "obrazki/cthulhu.png",
     "obrazki/cthulhu2.png",
-    "obrazki/zew_przygody.png"
+    "obrazki/patchwork.jpg",
+    "obrazki/zew_przygody.png",
+    "obrazki/ACValhalla.jpg",
+    "obrazki/godfall.jpg",
+    "obrazki/RatchetAndClank.jpg",
+    "obrazki/REVillage.jpg"
 ];
 
 let aktualnyObrazek = 0;

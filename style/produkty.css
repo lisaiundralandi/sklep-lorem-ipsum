@@ -21,3 +21,40 @@
     margin-bottom: 1em;
     margin-top: 0.5em;
 }
+
+.prezentacja-produktu > div {
+    display: inline-block;
+    max-width: 50%;
+    vertical-align: middle;
+}
+
+.prezentacja-produktu img{
+    max-width: 80%;
+}
+
+.prezentacja-produktu .cena{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    color: #516481;
+}
+
+.prezentacja-produktu .waluta{
+    color: black;
+    font-weight: normal;
+}
+
+.prezentacja-produktu .liczba-sztuk{
+    display: block;
+    margin-bottom: 1em;
+}
+
+.prezentacja-produktu .liczba-sztuk input{
+    width: 50px;
+}
+
+.prezentacja-produktu .stan-magazynu{
+    display: block;
+    font-size: 12px;
+}

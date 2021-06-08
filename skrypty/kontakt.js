@@ -25,5 +25,8 @@ function sprawdzTresc() {
 
     if (tresc.length < 10) {
         alert("Treść musi mieć minimum 10 znaków");
+        return false;
     }
+
+    return true;
 }

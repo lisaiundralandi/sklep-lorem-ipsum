@@ -1,4 +1,4 @@
-.produkt{
+.produkt {
     margin-top: 1em;
     padding: 1.5em;
     border: 1px dashed #919090;
@@ -8,7 +8,7 @@
     text-align: center;
 }
 
-.produkt img{
+.produkt img {
     max-width: 80%;
     max-height: 200px;
     display: block;
@@ -16,7 +16,7 @@
     margin-right: auto;
 }
 
-.produkt .cena{
+.produkt .cena {
     font-size: 18px;
     margin-bottom: 1em;
     margin-top: 0.5em;
@@ -28,11 +28,11 @@
     vertical-align: middle;
 }
 
-.prezentacja-produktu img{
+.prezentacja-produktu img {
     max-width: 80%;
 }
 
-.prezentacja-produktu .cena{
+.prezentacja-produktu .cena {
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 1em;
@@ -40,29 +40,50 @@
     color: #516481;
 }
 
-.prezentacja-produktu .waluta{
+.prezentacja-produktu .waluta {
     color: black;
     font-weight: normal;
 }
 
-.prezentacja-produktu .liczba-sztuk{
+.prezentacja-produktu .liczba-sztuk {
     display: block;
     margin-bottom: 1em;
 }
 
-.prezentacja-produktu .liczba-sztuk input{
+.prezentacja-produktu .liczba-sztuk input {
     width: 50px;
 }
 
-.prezentacja-produktu .stan-magazynu{
+.prezentacja-produktu .stan-magazynu {
     display: block;
     font-size: 12px;
 }
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 960px) {
 
-    .produkt{
+    .produkt {
         width: auto;
         display: block;
+    }
+
+    .prezentacja-produktu > div {
+        display: block;
+        max-width: 100%;
+        padding-left: 1em;
+    }
+
+    .opis {
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 1.5em;
+    }
+
+    .prezentacja-produktu img {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .prezentacja-produktu > div:first-child {
+        text-align: center;
     }
 }

@@ -28,3 +28,19 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+@media screen and (max-width: 960px){
+
+    .formularz-kontaktowy .wprowadzanie-tekstu{
+        min-width: 80%;
+    }
+
+    .formularz-kontaktowy textarea{
+        min-width: 90%;
+    }
+
+    .formularz-kontaktowy{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}

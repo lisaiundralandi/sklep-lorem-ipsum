@@ -15,6 +15,7 @@ body {
     color: #8ea1be;
     margin-left: 1em;
     margin-right: 1em;
+    white-space: nowrap;
 }
 
 .menu a:hover {
@@ -43,7 +44,7 @@ body {
     border-radius: 10px;
 }
 
-.lead-podstrona{
+.lead-podstrona {
     background-color: white;
 }
 
@@ -73,9 +74,10 @@ body {
     padding-top: 1em;
     color: darkgray;
     margin-bottom: 1em;
+    padding-left: 0.5em;
 }
 
-.stopka a{
+.stopka a {
     color: darkgray;
 }
 
@@ -93,6 +95,7 @@ body {
     border: none;
     border-radius: 8px;
     text-decoration: none;
+    margin-top: 1em;
 }
 
 .przycisk:active {
@@ -107,3 +110,13 @@ body {
     border-radius: 10px;
 }
 
+@media screen and (max-width: 960px) {
+    .tekst-dodatkowy {
+        width: auto;
+        display: block;
+    }
+
+    .tekst-dodatkowy:first-child {
+        margin-right: 0;
+    }
+}

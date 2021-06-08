@@ -18,6 +18,15 @@ body {
     white-space: nowrap;
 }
 
+.menu-rozwijane {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding-bottom: 0.4em;
+}
+
 .menu a:hover {
     color: #61718a;
 }
@@ -96,6 +105,7 @@ body {
     border-radius: 8px;
     text-decoration: none;
     margin-top: 1em;
+    cursor: pointer;
 }
 
 .przycisk:active {
@@ -110,6 +120,34 @@ body {
     border-radius: 10px;
 }
 
+.przycisk-menu img {
+    max-height: 1em;
+    margin-bottom: -2px;
+}
+
+.przycisk-menu {
+    float: right;
+    padding: 0.8em;
+    font-size: 15px;
+    color: #8ea1be;
+    border: 1px solid #8ea1be;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: -0.8em;
+    user-select: none;
+}
+
+#menu-linki {
+    padding-top: 1em;
+}
+
+#menu-linki a{
+    display: block;
+    padding-top: 1em;
+    text-align: center;
+}
+
 @media screen and (max-width: 960px) {
     .tekst-dodatkowy {
         width: auto;
@@ -118,5 +156,21 @@ body {
 
     .tekst-dodatkowy:first-child {
         margin-right: 0;
+    }
+
+    .menu-rozwijane {
+        display: block;
+    }
+
+    .menu-poziome {
+        display: none;
+    }
+
+    .schowane {
+        display: none;
+    }
+
+    body{
+        padding-top: 4em;
     }
 }

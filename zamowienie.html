@@ -10,10 +10,11 @@
     <title>Dziękujemy za zamówienie</title>
     <link rel="stylesheet" href="style/main.css">
     <link rel="icon" type="image/png" href="favicon.png">
+    <script src="skrypty/menu.js"></script>
 </head>
 <body>
 
-<div class="menu">
+<div class="menu menu-poziome">
     <div class="zawartosc">
         <span class="menu-tytul"><img src="obrazki/kontroler.png" class="logo" alt="logo kontrolera"> Lorem Ipsum</span>
 
@@ -21,6 +22,19 @@
         <a href="gry-planszowe.html">Gry planszowe</a>
         <a href="gry-wideo.html">Gry wideo</a>
         <a href="kontakt.html">Kontakt</a>
+    </div>
+</div>
+
+<div class="menu menu-rozwijane">
+    <div class="zawartosc">
+        <span class="menu-tytul"><img src="obrazki/kontroler.png" class="logo" alt="logo kontrolera"> Lorem Ipsum</span>
+        <span onclick="zmienWidocznosc()" class="przycisk-menu"><img src="obrazki/menu.svg" alt="przycisk menu"> Menu</span>
+        <div id="menu-linki" class="schowane">
+            <a href="index.html">Strona główna</a>
+            <a href="gry-planszowe.html">Gry planszowe</a>
+            <a href="gry-wideo.html">Gry wideo</a>
+            <a href="kontakt.html">Kontakt</a>
+        </div>
     </div>
 </div>
 

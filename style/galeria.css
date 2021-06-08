@@ -8,7 +8,7 @@
     max-width: 100%;
 }
 
-.galeria button{
+.galeria button {
     padding: 0.8em;
     background-color: whitesmoke;
     border: 1px solid #a4a3a3;
@@ -19,6 +19,12 @@
     cursor: pointer;
 }
 
-.galeria button:active{
+.galeria button:active {
     background-color: #b8b5b5;
+}
+
+@media screen and (max-width: 960px) {
+    .galeria img {
+        max-height: 280px;
+    }
 }
